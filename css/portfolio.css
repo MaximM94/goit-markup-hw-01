@@ -1,1 +1,20 @@
 /* Герой */
+.hero-portfolio .menu-portfolio {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.hero-portfolio .menu-portfolio:hover,
+.hero-portfolio .menu-portfolio:focus {
+    color: var(--accent-color);
+    background-color: var(--backround-color);
+}
+
+/* Примеры работ */
+.name {
+    color: var(--primary-text-color);
+}
+
+.direction {
+    color: var(--title-text-color);
+}
