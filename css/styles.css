@@ -1,29 +1,71 @@
 /* Герой */
 .hero-title {
+
     color: #FFFFFF;
     background: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
 }
 
 
 /* Преимущества */
 .section-title {
+
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
 }
+
 .feature-list .title {
+
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
 }
+
 .coach-list .title {
+
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+}
+
+.feature-list .text {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+
+
+.coach-list .text {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
 }
 
 
 /* Button */
-.service-title {
-color: var(--accent-color);
-background-color: var(--backround-color);
-}
 .service-title.primary {
     background-color: var(--backround-color);
     color: var(--accent-color);
 }
-

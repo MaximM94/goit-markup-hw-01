@@ -19,9 +19,13 @@
     --backround-color: #2196F3;
     --accent-color: #fff;
 }
+
 .page {
     color: #757575;
     background-color: #ffffff;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -29,7 +33,22 @@
 }
 
 .logo {
+
     color: #000000;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+.logo-web {
+    color: var(--backround-color);
+}
+
+button {
+    font-family: inherit;
 }
 
 
@@ -45,10 +64,18 @@
 
 .site-nav .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .link {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
